@@ -1,0 +1,7 @@
+package com.passenger.repository;
+
+import com.passenger.entity.Passenger;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PassengerRepository extends JpaRepository<Passenger, Long> {
+}
